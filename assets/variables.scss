@@ -1,0 +1,37 @@
+$theme-pink: #ff4081;
+$theme-dark-grey: #333333;
+
+@mixin theme-pink-gradient($angle) {
+  background: linear-gradient(
+    $angle,
+    #ff4081,
+    #f50057
+  ); // Define the pink gradient with the specified angle
+}
+
+$theme-light-pink: linear-gradient(
+  45deg,
+  #ffc3a0,
+  #ffafbd
+); // Define the light pink gradient with a 45-degree angle
+
+$theme-blue: #2196f3; // Define the theme blue color
+$theme-dark-pink: #d81b60; // Define the theme dark pink color
+$theme-almost-black: #333333; // Define the theme almost-black color
+$mdc-theme-error: #f44336; // Define the MDC theme error color as a shade of red
+$theme-light-grey: #f5f5f5; // Define the theme light grey color
+$theme-purple: #800080; // Define the theme purple color
+
+$mdc-layout-grid-max-width: 1024px; // Define the maximum width for the MDC layout grid container
+$mdc-grid-tablet: 768px; // Define the tablet breakpoint value as 768px
+$mdc-grid-desktop: 1024px; // Define the desktop breakpoint value as 1024px
+$theme-drawer-width-threshold: 600px; // Define the threshold for changing the drawer width
+$mdc-tablet: 768px; // Define the tablet breakpoint value as 768px
+$mdc-desktop: 1024px;
+
+$mdc-layout-grid-default-margin: (
+  desktop: 24px,
+  tablet: 16px,
+  phone: 16px,
+);
+$size: 16px;
